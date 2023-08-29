@@ -1,0 +1,39 @@
+.Cabecalho{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    position: left;
+    justify-content: space-between;
+    background-color: #f6f6f6f9;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.Cabecalho nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 1.6rem;
+    font-weight: 1;
+}
+
+.Cabecalho a img{
+    height: 30px;
+    display: inline-block!important;
+    justify-content: left;
+    vertical-align: top!important;
+}
+
+.Cabecalho a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    margin: 1px;
+}

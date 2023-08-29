@@ -1,0 +1,32 @@
+.Home {
+    display: flex;
+    align-items: top;
+    font-size: 1.5rem;
+    background-color: #ffa60029;
+    width: 90%;
+    height: 100vh;
+}
+
+.Home table{
+    margin: 20px;
+    background-color: #ffffff;
+    width: 95%;
+    /*border: solid black;*/
+    justify-content: left;
+    border-collapse: collapse;
+}
+
+.Home td{
+    font-size: 1.2rem;
+    align-items: left;
+    display: flex;
+    border-bottom: solid;
+    border-color: antiquewhite;
+    margin: 40px;
+    font-size: 1.5rem;
+}
+
+.Home a{
+    text-decoration: none;
+    color: black;
+}
