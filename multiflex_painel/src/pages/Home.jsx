@@ -10,7 +10,9 @@ export default props => {
             <div className='Home'>
                     <table>
                         <thead>
-                            <th>Nome</th>
+                            <tr>
+                                <th>Nome</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <Link to="/"><td>Marcos</td></Link>

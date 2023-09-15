@@ -6,7 +6,7 @@ export default props =>{
     return(
         <div className='Cabecalho'>
                 <nav className='NavBar'>
-                    <a href='./cliente'><img src={LogoFlex}/> MultiFlex</a>
+                    <a href='./Home'><img src={LogoFlex}/> MultiFlex</a>
                 </nav>
         </div>
     )
